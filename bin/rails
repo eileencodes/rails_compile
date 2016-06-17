@@ -1,4 +1,13 @@
 #!/usr/bin/env ruby
+#at_exit { p ::Yomikomu::STATISTICS; StackProf.stop; StackProf.results('omg_2.prof') }
+#at_exit { p ::Yomikomu::STATISTICS; }
 APP_PATH = File.expand_path('../config/application', __dir__)
+#ENV['YOMIKOMU_STORAGE'] = 'fs2'
+#ENV['YOMIKOMU_AUTO_COMPILE'] = "true"
+#app_root = File.expand_path(File.join(APP_PATH, '../../tmp/cache/'))
+#ENV['YOMIKOMU_STORAGE_DIR'] = app_root
+#require 'yomikomu'
+#require 'stackprof'
+#StackProf.start(mode: :wall)
 require_relative '../config/boot'
 require 'rails/commands'
