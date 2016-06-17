@@ -1,3 +1,6 @@
+gem 'yomikomu', path: "/Users/eileen/Sites/open_source/yomikomu"
+gem 'bootscale', path: "/Users/eileen/Sites/open_source/bootscale"
+gem 'stackprof'
 source 'https://rubygems.org'
 
 gem 'rails', path: "/Users/eileen/Sites/open_source/rails"
